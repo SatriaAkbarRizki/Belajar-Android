@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">VIewGroupDasar</string>
+    <string name="tv_listImage">3 Photos</string>
+    <string name="price_phone">$800</string>
+    <string name="titile_phone">Google Pixel 3 XL </string>
+    <string name="stock_phone">| Stock hanya 10</string>
+    <string name="about_phone">The Pixel 3 XL is Google"'"s latest flagship smartphone. It promises to bring everything we have come to expect with the Pixel brand, including a clean build of Android, fast performance, quality camera and some cool software tricks that only Google can come up with</string>
+    <string name="specification">Specification :</string>
+
+    <string name="display">Display</string>
+    <string name="content_specs_display">P-OLED, HDR
+    \n6.3 inches, 100.3 cm2 (~82.8% screen-to-body ratio)
+    \n1440 x 2960 pixels, 18.5:9 ratio (~523 ppi density)
+    \nCorning Gorilla Glass 5
+    \nAlways-on display
+    </string>
+
+    <string name="platform">Platform</string>
+    <string name="content_specs_platform">Android 9.0 (Pie), upgradable to Android 12
+    \nQualcomm SDM845 Snapdragon 845 (10 nm)
+    \nOcta-core (4x2.5 GHz Kryo 385 Gold &amp; 4x1.6 GHz Kryo 385 Silver)
+    \nAdreno 630
+    </string>
+
+    <string name="battery">Battery</string>
+    <string name="content_specs_battery">Li-Po 3430 mAh, non-removable
+    \n18W wired, PD2.0
+    \nWireless
+    </string>
+
+    <string name="test">Test\nPerfomance
+    </string>
+    <string name="content_specs_testperfomance">AnTuTu: 258244 (v7), 341814 (v8)
+    \nGeekBench: 8088 (v4.4), 2092 (v5.1)
+    \nGFXBench: 12fps (ES 3.1 onscreen)
+    </string>
+    <string name="seller">Dijual Oleh:</string>
+    <string name="myname">LuffyTaro</string>
+</resources>

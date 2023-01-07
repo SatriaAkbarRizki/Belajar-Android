@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="#b8e2f2"
+    >
+
+    <TextView
+        android:id="@+id/JudulAplikasi"
+        android:text="Indonesia to English"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TableRow android:background="#f29d13">
+        <TextView
+            android:layout_column="1"
+            android:text="Indonesia"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:background="#e3050c"
+            android:layout_width="wrap_content"
+            />
+        <TextView
+            android:text="English"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="46dp"
+            android:background="#080cd4"
+            />
+    </TableRow>
+
+    <TableRow android:background="#f29d13">
+        <TextView
+            android:text="1"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:textSize="24dp"
+            android:layout_width="10dp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Jalan"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:layout_marginLeft="42dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:text="  Run"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="46dp"
+            />
+    </TableRow>
+
+    <TableRow android:background="#f29d13">
+
+        <TextView
+            android:text="2"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:textSize="24dp"
+            android:layout_width="30dp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Berhenti"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="42dp"
+            />
+        <TextView
+            android:text="  Stop"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="46dp"
+            />
+    </TableRow>
+
+    <TableRow android:background="#f29d13">
+
+        <TextView
+            android:text="3"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:textSize="24dp"
+            android:layout_width="30dp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Melihat"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="42dp"
+            />
+        <TextView
+            android:text="  Seeing"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="46dp"
+            />
+    </TableRow>
+
+    <TableRow android:background="#f29d13">
+        <TextView
+            android:text="4"
+            android:layout_gravity="left"
+            android:padding="5dp"
+            android:textSize="24dp"
+            android:layout_width="30dp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_column="1"
+            android:text="Mengambil"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="42dp"
+            />
+        <TextView
+            android:text="  Seeing"
+            android:padding="3dp"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="46dp"
+            />
+    </TableRow>
+
+
+</TableLayout>

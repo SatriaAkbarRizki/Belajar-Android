@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Distro Linux</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="nameProfile">Satria Akbar Rizki</string>
+    <string name="emailProfile">sartiapl@gmail.com</string>
+    <string name="emmailProfile">sartiapl@gmail.com</string>
+
+    <string-array name="data_nama">
+        <item>Ubuntu</item>
+        <item>Linux Lite</item>
+        <item>Linux Mint</item>
+        <item>Zorin OS</item>
+        <item>MX Linux</item>
+        <item>EndeavourOS</item>
+        <item>Debian</item>
+        <item>Kali Linux</item>
+        <item>Parrot</item>
+        <item>BlankOn</item>
+        <item>Fedora</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>Distro Linux yang dikembangkan oleh Canonical dengan basis Debian. Ubuntu merupakan sistem operasi desktop yang lengkap, tersedia secara gratis, dan didukung oleh komunitas. \n\nSebagai distribusi linux open source, dukungan komunitas menjadi salah satu hal yang membuat distro Linux Ubuntu banyak diunduh oleh pengguna. Mulai dari pengguna tingkat lanjut hingga pemula</item>
+        <item>Dikembangkan dari Ubuntu, Linux Lite hadir menjadi alternatif bagi pengguna yang ingin beralih dari Windows. Oleh karena itu, setiap aspeknya dibuat hampir serupa dengan Windows, terutama desktop environment atau tampilannya. \n\nMenariknya, distro Linux ini dibekali dengan aplikasi yang umumnya dibutuhkan oleh pengguna Windows. \n\nTanpa instalasi, pengguna akan langsung mendapatkan LibreOffice untuk menggantikan Microsoft Office, Chrome sebagai web browser, VLC sebagai media player, dan lainnya.</item>
+        <item>Distribusi Linux yang berbasis Ubuntu. Distro Linux ini hadir untuk pengguna yang ingin menggunakan desktop dengan kebebasan untuk melakukan pengaturan. \n\nSebagai Linux distro yang dikembangkan untuk desktop, Linux Mint dilengkapi dengan sejumlah perangkat lunak seperti di Windows dan mac OS. \n\nInstalasi distribusi Linux ini juga cukup mudah dengan langkah yang tidak terlalu banyak. Apalagi distro Linux ini sudah menyediakan panduan lengkap bagi pengguna yang ingin melakukan instalasi sendiri. \n\nSelain itu, dukungan komunitasnya yang cukup besar juga bermanfaat ketika Anda ingin menanyakan kendala instalasi atau hal teknis lainnya. </item>
+        <item>Distribusi Linux yang dibuat untuk memiliki banyak kemiripan dengan Windows. Mulai dari grafis antarmuka yang mirip dengan Windows, hingga aplikasi yang memungkinkan pengguna untuk menjalankan program Windows. \n\nDikembangkan dengan basis Debian, dan dirilis sejak tahun 2009, Zorin OS kini sudah memiliki 4 edisi, yaitu: Core, Lite, Education, dan Ultimate.  Semua versi diunduh secara gratis kecuali Ultimate yang dibandrol dengan harga $39. \n\nSelain harga, yang membedakan masing-masing edisi adalah desktop environment-nya. Ultimate dan Education bisa menggunakan GNOME atau XFCE. Sedangkan Core hanya menyediakan GNOME, dan Lite menyediakan XFCE.</item>
+        <item>Distro Linux open source yang dibangun menggunakan antiX dan MEPIS. Keduanya merupakan distro berbasis Debian. Distro ini didesain untuk menyediakan sistem operasi yang elegan dan efisien untuk bekerja. Distro ini dapat bekerja pada PC lama dengan spesifikasi minimal. \n\nMX Linux merupakan distro Linux yang sangat mudah untuk dikonfigurasi dan menawarkan user performa yang dapat diandalkan. Linux Distro ini sangat mudah untuk dikembangkan dan digunakan, bahkan untuk pemula sekali pun. \n\nMX Linux merupakan distro Linux yang sangat mudah untuk dikonfigurasi dan menawarkan user performa yang dapat diandalkan. . </item>
+        <item>Termasuk salah satu distribusi Linux yang baru. Meskipun begitu, sejak pertama kali dirilis pada tahun 2019, Endeavour OS berhasil menjadi distro Linux terpopuler. Buktinya, distribusi Linux ini  berada di peringkat kedua pengunduh terbanyak di Distrowatch, website listing distro Linux. \n\nDikembangkan dengan basis Arch, Endeavour OS hadir menawarkan pengalaman menggunakan desktop yang ramah pengguna dan mudah dikonfigurasi. Bahkan, pada rilisan terbaru distro Linux ini, pengguna dapat memilih untuk melakukan instalasi Endeavour OS secara online maupun offline. </item>
+        <item>Salah satu distro Linux terbesar dan tertua. Distribusi Linux Debian terus berkembang dan dapat digunakan untuk desktop dan server. \n\nMenariknya, Debian menawarkan metode pembaruan yang tidak seperti distro Linux, yaitu melalui rilisan langsung. Jadi, Anda dapat mengatur pembaruan dan menginstal aplikasi tanpa harus melakukan reboot. \n\nSelain itu, salah satu alasan Debian masih terus digunakan hingga sekarang adalah Linux distro ini terus memberikan kinerja yang stabil. </item>
+        <item>Distro Linux open source yang berbasis Debian. Kali Linux dikembangkan untuk penggunaan pada keamanan data dan informasi, seperti peretasan etis atau riset keamanan suatu sistem, pengujian penetrasi, dan forensik komputer. \n\nKali Linux banyak digunakan peretasan yang bertujuan untuk menguji keamanan sistem Anda. Sekalipun begitu, bukan tidak mungkin Kali Linux digunakan secara ilegal untuk mengakses sistem tanpa izin. \n\nHal yang membuat Kali Linux diandalkan oleh developer profesional maupun peretas adalah privasi. Sistem operasi Kali Linux dapat melakukan boot dengan USB dan LiveDVD, sehingga tidak meninggalkan jejak pengguna. </item>
+        <item>Distro Linux berbasis Debian. Dikembangkan oleh FrozenBox dan MATE untuk desktop, Parrot adalah tools yang dapat digunakan untuk tujuan pengujian penetrasi, peretasan, kriptografi, anonimitas, dan forensik komputer. \n\nTarget dari penggunaan Linux distro ini adalah pengguna yang ingin menggunakan  sistem penetration testing dengan environment yang nyaman dan anonimitas online serta sistem yang terenkripsi. \n\nHal yang menarik dari Parrot adalah sistem operasinya cukup ringan. Pada persyaratan perangkat keras, Parrot hanya membutuhkan ruang penyimpanan dan sumberdaya yang kecil dan Cukup dengan RAM minimal 300MB dan penyimpanan minimal 15 GB saja untuk instalasi sistem operasi. </item>
+        <item>Distro Linux yang dibangun berbasis Debian. BlankOn dikembangkan oleh Tim Pengembang BlankOn Indonesia dengan perancangan yang disesuaikan dengan kebutuhan penggunaan komputer di Indonesia. \n\nSebagai salah satu distro Linux yang dikembangkan di indonesia BlankOn dibangun untuk menciptakan distro Linux khas Indonesia. Utamanya, untuk kebutuhan pendidikan, pemerintahan, dan perkantoran. \n\nDistro Linux BlankOn sudah merilis beberapa versi distribusi Linux dengan menggunakan nama-nama yang familiar untuk pengguna Indonesia. Mulai dari Lontara, Pattimura, Rote, Suroboyo, Tambora, hingga versi yang terakhir dirilis pada Tahun 2018, yaitu Uluwatu. </item>
+        <item>Distro Linux hasil pengembangan dari Red Hat. Fedora server memungkinkan Anda untuk mengelola server menggunakan tool Rolekit. Sistem operasi ini juga didukung dengan PostgreSQL Database Server. \n\nFedora Server juga mempunyai FreeIPA yang memungkinkan Anda untuk melakukan beberapa hal penting bari server. Sebagai contoh, mengelola proses otentifikasi, mengakses informasi, dan melakukan audit melalui satu lokasi sentral. </item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/ubuntu_logo</item>
+        <item>@drawable/linuxlite_logo</item>
+        <item>@drawable/linuxmint_logo</item>
+        <item>@drawable/zorinos_logo</item>
+        <item>@drawable/mxlinux_logo</item>
+        <item>@drawable/endevouros_logo</item>
+        <item>@drawable/debian_logo</item>
+        <item>@drawable/kalilinux_logo</item>
+        <item>@drawable/parrot_logo</item>
+        <item>@drawable/blankon_logo</item>
+        <item>@drawable/fedora_logo</item>
+    </string-array>
+</resources>

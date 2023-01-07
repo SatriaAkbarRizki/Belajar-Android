@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@drawable/gradient_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagepeople"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="330dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_people_alt_24" />
+
+        <TextView
+            android:id="@+id/textlabel1"
+            android:text="Check"
+            android:textSize="32dp"
+            android:fontFamily="@font/karla_font_"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imagepeople"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="355dp"
+            />
+
+        <TextView
+            android:id="@+id/textLabel2"
+            android:text="Data Siswa"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/karla_font_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textlabel1"
+            android:layout_toRightOf="@id/imagepeople"
+            android:layout_marginLeft="25dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:padding="240dp"
+                android:background="@drawable/background_sponsor"
+                android:layout_gravity="bottom"
+                />
+
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logosmk"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="60dp"
+
+                />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="120dp"
+                android:src="@drawable/img"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="150dp"
+            />
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="128dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="210dp"
+                android:src="@drawable/logosmk_bisa"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

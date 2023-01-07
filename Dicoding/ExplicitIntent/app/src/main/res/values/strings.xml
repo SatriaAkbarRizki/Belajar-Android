@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Explicit Intent</string>
+    <string name="btn_text2">Pindah Activity dengan data</string>
+    <string name="btn_text1">Pindah ke Activity Lain</string>
+    <string name="btn_text3">pindah Activity dengan objek</string>
+    <string name="chooseNumber">Pilihan Angka dibawah ini</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_300">300</string>
+    <string name="_310">310</string>
+    <string name="_240">240</string>
+    <string name="btn_choose">Pilih</string>
+    <string name="btn_result">Pindah Activity untuk result</string>
+</resources>

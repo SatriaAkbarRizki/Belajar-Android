@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+    
+    <style name="Circual">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedSquareKhusus">
+        <item name="cornerSize">20%</item>
+        <item name="background"></item>
+        <item name="android:background">@drawable/gradient_button</item>
+    </style>
+
+</resources>

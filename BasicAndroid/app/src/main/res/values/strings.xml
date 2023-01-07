@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Edit</string>
+    <string name="btnText">Ok</string>
+    <string name="textNull">null</string>
+</resources>
