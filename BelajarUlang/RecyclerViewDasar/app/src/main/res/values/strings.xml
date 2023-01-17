@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">RecyclerView Dasar</string>
+    <string name="text_kota">kota</string>
+    <string name="text_example">Example</string>
+
+    <string-array name="description_city">
+        <item>Banda Aceh (Aceh: Jawoë: بندر اچيه) merupakan kotamadya dan ibukota dari provinsi Aceh, provinsi paling Utara di pulau Pulau Sumatra, Indonesia. Sebagai pusat pemerintahan, Banda Aceh menjadi pusat kegiatan ekonomi, politik, sosial dan budaya. Kota Banda Aceh juga merupakan kota Islam yang paling tua di Asia Tenggara, di mana Kota Banda Aceh merupakan ibu kota dari Kesultanan Aceh</item>
+        <item>Medan adalah ibu kota provinsi Sumatra Utara, Indonesia. Kota ini merupakan kota terbesar ketiga di Indonesia setelah DKI Jakarta dan Surabaya serta kota terbesar di luar pulau Jawa, sekaligus terbesar di Pulau Sumatra. Kota Medan merupakan pintu gerbang wilayah Indonesia bagian barat dengan keberadaan Pelabuhan Belawan dan Bandar Udara Internasional Kualanamu yang merupakan bandara terbesar kedua di Indonesia. Akses dari pusat kota menuju pelabuhan dan bandara dilengkapi oleh jalan tol dan kereta api. Medan adalah kota pertama di Indonesia yang mengintegrasikan bandara dengan kereta api. Berbatasan dengan Selat Malaka, Medan menjadi kota perdagangan, industri, dan bisnis yang sangat penting di Indonesia. Pada tahun 2020, kota Medan memiliki penduduk sebanyak 2.435.252 jiwa, dan kepadatan penduduk 9.522,22 jiwa/km</item>
+        <item>Padang adalah kota terbesar di pantai barat Pulau Sumatra sekaligus ibu kota Provinsi Sumatra Barat, Indonesia. Kota ini adalah pintu gerbang barat Indonesia dari Samudra Hindia. Secara geografi, Padang dikelilingi perbukitan yang mencapai ketinggian 1.853 mdpl dengan luas wilayah 693,66 km², lebih dari separuhnya berupa hutan lindung. Berdasarkan data Badan Pusat Statistik (BPS) pada 2021, kota ini memiliki jumlah penduduk sebanyak 909.040 jiwa. Padang merupakan kota inti dari pengembangan wilayah metropolitan Palapa. </item>
+    </string-array>
 </resources>

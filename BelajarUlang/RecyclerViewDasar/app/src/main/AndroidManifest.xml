@@ -13,6 +13,13 @@
         android:theme="@style/Theme.RecyclerViewDasar"
         tools:targetApi="31">
         <activity
+            android:name=".DetailInfo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CustomAdapter"
             android:exported="false">
             <meta-data

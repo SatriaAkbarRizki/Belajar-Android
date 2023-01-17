@@ -1,13 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdview_image"
+        android:layout_width="340dp"
+        android:layout_height="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/img_imageCity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+
     <TextView
-        android:id="@+id/tv_itemView"
-        android:text="Example"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        android:id="@+id/title_kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cdview_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toStartOf="@id/img_imageCity"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text_kota"
+        android:textSize="16sp"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/tv_namaKota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_kota"
+        android:layout_marginLeft="20dp"
+        android:layout_toStartOf="@id/img_imageCity"
+        android:text="@string/text_example"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,NotSibling" />
+
+    <Button
+
+        android:id="@+id/bt_moveActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_namaKota"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_button1"
+        android:text="Selengkapnya" />
+
+</RelativeLayout>

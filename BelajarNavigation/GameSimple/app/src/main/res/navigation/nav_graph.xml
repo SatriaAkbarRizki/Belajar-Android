@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/intoFragment">
+
+    <fragment
+        android:id="@+id/intoFragment"
+        android:name="com.example.gamesimple.IntoFragment"
+        android:label="fragment_into"
+        tools:layout="@layout/fragment_into" >
+        <action
+            android:id="@+id/action_intoFragment_to_quisFragment2"
+            app:destination="@id/quisFragment2" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" >
+        <action
+            android:id="@+id/action_placeholder_to_intoFragment"
+            app:destination="@id/intoFragment" />
+        <action
+            android:id="@+id/action_placeholder_to_intoFragment2"
+            app:destination="@id/intoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quisFragment2"
+        android:name="com.example.gamesimple.QuisFragment"
+        android:label="fragment_quis"
+        tools:layout="@layout/fragment_quis" />
+</navigation>
