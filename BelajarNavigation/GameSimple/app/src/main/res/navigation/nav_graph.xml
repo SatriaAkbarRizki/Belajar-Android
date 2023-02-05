@@ -3,28 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/intoFragment">
+    app:startDestination="@id/fr_intoFragment">
 
     <fragment
-        android:id="@+id/intoFragment"
+        android:id="@+id/fr_intoFragment"
         android:name="com.example.gamesimple.IntoFragment"
         android:label="fragment_into"
         tools:layout="@layout/fragment_into" >
         <action
             android:id="@+id/action_intoFragment_to_quisFragment2"
-            app:destination="@id/quisFragment2" />
-    </fragment>
-    <fragment android:id="@+id/placeholder" >
-        <action
-            android:id="@+id/action_placeholder_to_intoFragment"
-            app:destination="@id/intoFragment" />
-        <action
-            android:id="@+id/action_placeholder_to_intoFragment2"
-            app:destination="@id/intoFragment" />
+            app:destination="@id/fr_quisFragment" />
     </fragment>
     <fragment
-        android:id="@+id/quisFragment2"
+        android:id="@+id/fr_quisFragment"
         android:name="com.example.gamesimple.QuisFragment"
         android:label="fragment_quis"
-        tools:layout="@layout/fragment_quis" />
+        tools:layout="@layout/fragment_quis" >
+        <action
+            android:id="@+id/action_fr_quisFragment_to_finishQuizFragment"
+            app:destination="@id/finishQuizFragment"
+            app:popUpTo="@id/fr_intoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finishQuizFragment"
+        android:name="com.example.gamesimple.FinishQuizFragment"
+        android:label="fragment_finish_quiz"
+        tools:layout="@layout/fragment_finish_quiz" >
+        <argument
+            android:name="result"
+            app:argType="string" />
+        <argument
+            android:name="image"
+            app:argType="integer" />
+    </fragment>
 </navigation>

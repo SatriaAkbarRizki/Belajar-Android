@@ -2,4 +2,6 @@
     <string name="app_name">GameSimple</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_quiz">Sistem apa yang kamu pakai kali ini?</string>
+    <string name="string_finishDescription">Example</string>
 </resources>
