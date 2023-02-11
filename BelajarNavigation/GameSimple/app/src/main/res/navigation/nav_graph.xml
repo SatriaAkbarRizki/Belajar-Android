@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_into" >
         <action
             android:id="@+id/action_intoFragment_to_quisFragment2"
-            app:destination="@id/fr_quisFragment" />
+            app:destination="@id/fr_quisFragment"
+            app:enterAnim="@anim/animation_fragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/fr_quisFragment"
@@ -36,4 +38,13 @@
             android:name="image"
             app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.gamesimple.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.gamesimple.MainActivity"
+        android:label="MainActivity" />
 </navigation>

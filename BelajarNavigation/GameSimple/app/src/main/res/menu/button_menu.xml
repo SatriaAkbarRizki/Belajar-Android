@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="Home"
+        android:icon="@drawable/icons8_home"
+        />
+
+    <item
+        android:title="Quis"
+        android:id="@+id/fr_quisFragment"
+        android:icon="@drawable/icons8_quiz"/>
+
+    <item
+        android:title="About"
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/icons8_info"/>
+</menu>
