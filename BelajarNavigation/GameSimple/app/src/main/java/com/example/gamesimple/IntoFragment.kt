@@ -31,8 +31,6 @@ class IntoFragment : Fragment() {
         val binding : FragmentIntoBinding = DataBindingUtil.inflate(
             inflater,R.layout.fragment_into, container, false)
 
-//        val inflater = TransitionInflater.from(requireContext())
-//        exitTransition = inflater.inflateTransition(R.anim.animation_fragment)
 
         binding.btnStar.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.fr_quisFragment)

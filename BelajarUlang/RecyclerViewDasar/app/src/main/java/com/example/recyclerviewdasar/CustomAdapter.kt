@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclerviewdasar.databinding.ItemlayoutBinding
+    import com.example.recyclerviewdasar.databinding.ItemlayoutBinding
 
 class CustomAdapter(private var listKota: ArrayList<Kota>) : RecyclerView.Adapter<CustomAdapter.MyViewHolder>() {
 
