@@ -1,4 +1,4 @@
-package com.example.makanannusantara
+package com.example.makanannusantara.Data
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
@@ -7,5 +7,5 @@ import kotlinx.parcelize.Parcelize
 data class DataFood(
     var nameFood : String,
     var imageFood : Int,
-//    var descriptionFood : String
+    var descriptionFood : String
 ) : Parcelable

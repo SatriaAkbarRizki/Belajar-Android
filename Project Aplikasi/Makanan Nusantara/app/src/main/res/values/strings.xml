@@ -10,4 +10,15 @@
         <item>Sumur Ayam</item>
     </string-array>
 
+    <string-array name="deskipsiNama">
+        <item>Nasi Lemak adalah makanan khas Malaysia yang terdiri dari nasi yang dimasak dengan santan,
+            daun pandan, dan garam. Biasanya disajikan dengan ikan teri, telur rebus, kacang tanah goreng, mentimun, dan sambal pedas.
+            Makanan ini sering dianggap sebagai sarapan tradisional di Malaysia, tetapi juga dapat dijadikan sebagai hidangan utama atau camilan.
+            Nasi Lemak memiliki rasa yang gurih, sedap, dan bercita rasa unik karena aroma daun pandan dan santannya yang kaya.
+            Makanan ini sangat populer dan menjadi hidangan favorit di banyak tempat di Asia Tenggara</item>
+        <item>s</item>
+        <item>s</item>
+        <item>sa</item>
+    </string-array>s
+
 </resources>

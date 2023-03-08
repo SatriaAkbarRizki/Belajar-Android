@@ -28,8 +28,8 @@ class IntoFragment : Fragment() {
         (activity as AppCompatActivity).supportActionBar?.title = "Game Pilihan Android dan IOS"
 
 //        set semua view ke dalam binding
-        val binding : FragmentIntoBinding = DataBindingUtil.inflate(
-            inflater,R.layout.fragment_into, container, false)
+            val binding : FragmentIntoBinding = DataBindingUtil.inflate(
+                inflater,R.layout.fragment_into, container, false)
 
 
         binding.btnStar.setOnClickListener(

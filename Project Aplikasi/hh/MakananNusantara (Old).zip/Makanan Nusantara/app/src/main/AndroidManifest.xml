@@ -13,12 +13,6 @@
         android:theme="@style/Theme.MakananNusantara"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityOther.DescriptionFood"
-            android:exported="false" />
-        <activity
-            android:name=".Data.ListItemFood"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
