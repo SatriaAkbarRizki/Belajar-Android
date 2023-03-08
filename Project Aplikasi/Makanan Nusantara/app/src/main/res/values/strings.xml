@@ -2,6 +2,7 @@
     <string name="app_name">MakananNusantara</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textWelcome">Temukan Resep Makanan \nKhas Indonesia</string>
 
     <string-array name="nameFoodArray">
         <item>Nasi Lemak</item>
@@ -16,9 +17,17 @@
             Makanan ini sering dianggap sebagai sarapan tradisional di Malaysia, tetapi juga dapat dijadikan sebagai hidangan utama atau camilan.
             Nasi Lemak memiliki rasa yang gurih, sedap, dan bercita rasa unik karena aroma daun pandan dan santannya yang kaya.
             Makanan ini sangat populer dan menjadi hidangan favorit di banyak tempat di Asia Tenggara</item>
-        <item>s</item>
-        <item>s</item>
-        <item>sa</item>
+        <item>Rendang adalah masakan khas Indonesia, khususnya dari daerah Sumatera Barat.
+            Masakan ini terbuat dari daging sapi yang dimasak dengan bumbu rempah-rempah khas Indonesia, seperti serai, lengkuas, cabe merah, bawang merah, bawang putih, dan santan kelapa.
+            Daging sapi dimasak dalam waktu yang lama hingga kuahnya kering dan bumbunya meresap ke dalam daging, sehingga memberikan rasa yang kaya dan gurih.
+            Rendang sering dianggap sebagai hidangan yang sulit dibuat karena memerlukan waktu yang cukup lama untuk memasak, tetapi hasil akhirnya sangat lezat dan diakui sebagai salah satu masakan terenak di dunia.</item>
+        <item>Sate adalah hidangan yang terdiri dari potongan daging atau ayam yang ditusuk dengan tusukan bambu atau lidi, kemudian dipanggang atau dibakar dengan arang atau api.
+            Hidangan ini berasal dari Asia Tenggara, khususnya Indonesia, Malaysia, dan Thailand, dan biasanya disajikan dengan bumbu kacang atau saus kecap pedas.
+            Ada berbagai jenis sate, seperti sate ayam, sate sapi, sate kambing, sate kelinci, dan sate seafood. Sate sering dianggap sebagai makanan yang praktis dan mudah disantap di mana saja,
+            sehingga menjadi salah satu hidangan yang populer di Asia Tenggara dan di seluruh dunia</item>
+        <item>Semur ayam adalah masakan Indonesia yang terbuat dari daging ayam yang dimasak dengan bumbu-bumbu rempah khas Indonesia, seperti bawang merah, bawang putih, jahe, kayu manis, dan cengkeh. D
+            aging ayam yang telah dimasak dengan bumbu tersebut kemudian direndam dalam kuah yang terbuat dari kecap manis, gula merah, dan air, sehingga memberikan rasa manis dan gurih yang khas.
+            Semur ayam biasanya disajikan dengan nasi putih dan pelengkap lainnya seperti telur rebus, kentang, dan acar timun. Masakan ini cukup populer di Indonesia dan sering dijadikan hidangan untuk acara keluarga atau acara khusus</item>
     </string-array>s
 
 </resources>

@@ -28,7 +28,7 @@ class CustomAdapter(val listFood: ArrayList<DataFood>, val clickToActivity: Clic
 
     override fun onBindViewHolder(holder: CustomHolder,position: Int) {
         val (name, image) = listFood[position]
-        holder.binding.btnTextfood.text = name
+        holder.binding.tvFood.text = name
         holder.binding.imgFood.setImageResource(image)
 
         val getData = Intent(holder.itemView.context, DescriptionFood::class.java)

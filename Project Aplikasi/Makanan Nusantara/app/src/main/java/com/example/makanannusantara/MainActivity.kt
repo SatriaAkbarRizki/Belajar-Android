@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity(), ClickToActivity {
         val customAdapter = CustomAdapter(listFood, this)
 
         rvFood.adapter = customAdapter
-        rvFood.layoutManager = GridLayoutManager(this, 2)
+//        rvFood.layoutManager = GridLayoutManager(this, 2)
     }
 
     override fun onClickItemActivity(position: Int) {
