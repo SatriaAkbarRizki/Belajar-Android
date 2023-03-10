@@ -1,6 +1,8 @@
 package com.example.makanannusantara
 
 import android.content.Intent
+import android.graphics.Color
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -14,30 +16,25 @@ import com.example.makanannusantara.ActivityOther.DescriptionFood
 import com.example.makanannusantara.Data.ClickToActivity
 import com.example.makanannusantara.Data.DataFood
 import com.example.makanannusantara.databinding.ActivityMainBinding
+import java.util.concurrent.locks.Condition
 
 class MainActivity : AppCompatActivity(), ClickToActivity {
 
     private val listFood = ArrayList<DataFood>()
     private lateinit var rvFood: RecyclerView
-
+    private var checkMode: Boolean = false
+    lateinit var customAdapter : CustomAdapter
+    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
-        val binding = DataBindingUtil.setContentView<ActivityMainBinding>(
-            this,
-            R.layout.activity_main
-        )
-        val view = binding.root
 
+
+        setBinding()
         AppCompatDelegate.setDefaultNightMode(
             AppCompatDelegate.MODE_NIGHT_NO
         )
-
 
         rvFood = binding.rvFood
         listFood.addAll(setListFood())
@@ -45,6 +42,14 @@ class MainActivity : AppCompatActivity(), ClickToActivity {
         supportActionBar?.hide()
     }
 
+    private fun setBinding(): View {
+        binding = DataBindingUtil.setContentView<ActivityMainBinding>(
+            this,
+            R.layout.activity_main
+        )
+        val view = binding.root
+        return view
+    }
 
     private fun setListFood(): ArrayList<DataFood> {
 
@@ -67,10 +72,10 @@ class MainActivity : AppCompatActivity(), ClickToActivity {
 
     private fun showRecyclerView() {
         rvFood.layoutManager = LinearLayoutManager(this)
-        val customAdapter = CustomAdapter(listFood, this)
-
+        customAdapter = CustomAdapter(listFood, this)
         rvFood.adapter = customAdapter
-//        rvFood.layoutManager = GridLayoutManager(this, 2)
+        switchMode()
+
     }
 
     override fun onClickItemActivity(position: Int) {
@@ -81,4 +86,22 @@ class MainActivity : AppCompatActivity(), ClickToActivity {
         startActivity(intent)
     }
 
+    fun switchMode() {
+        binding.btnSwitchLayout.setOnClickListener {
+            if (checkMode == false) {
+                val adapterGrid = AdapterGrid(listFood, this)
+                rvFood.layoutManager = GridLayoutManager(this, 2)
+                rvFood.adapter = adapterGrid
+                checkMode = true
+
+            } else if (checkMode == true) {
+                checkMode = false
+                rvFood.adapter = customAdapter
+                rvFood.layoutManager = LinearLayoutManager(this)
+
+            }
+        }
+    }
 }
+
+

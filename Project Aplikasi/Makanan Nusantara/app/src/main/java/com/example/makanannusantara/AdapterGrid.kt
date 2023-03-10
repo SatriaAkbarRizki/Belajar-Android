@@ -1,35 +1,33 @@
 package com.example.makanannusantara
 
 import android.content.Context
-import android.content.Intent
-import android.icu.text.Transliterator.Position
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.makanannusantara.ActivityOther.DescriptionFood
 import com.example.makanannusantara.Data.ClickToActivity
 import com.example.makanannusantara.Data.DataFood
-import com.example.makanannusantara.databinding.ActivityListItemFoodBinding
+import com.example.makanannusantara.databinding.ActivityGridLayoutBinding
 
-class CustomAdapter(val listFood: ArrayList<DataFood>, val clickToActivity: ClickToActivity)
-    :  RecyclerView.Adapter<CustomAdapter.CustomHolder>() {
+class AdapterGrid(val listFood: ArrayList<DataFood>, val clickToActivity: ClickToActivity)
+    :  RecyclerView.Adapter<AdapterGrid.CustomHolder>() {
 
 
 
-    class CustomHolder(var binding: ActivityListItemFoodBinding , private val context: Context) : RecyclerView.ViewHolder(binding.root){
+    class CustomHolder(var binding: ActivityGridLayoutBinding, private val context: Context) : RecyclerView.ViewHolder(binding.root){
     }
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomHolder {
         val listRecycler =
-            ActivityListItemFoodBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            ActivityGridLayoutBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return CustomHolder(listRecycler, parent.context)
     }
 
+
     override fun onBindViewHolder(holder: CustomHolder,position: Int) {
         val (name, image) = listFood[position]
-        holder.binding.tvFood.text = name
-        holder.binding.imgFood.setImageResource(image)
+        holder.binding.gridTvFood.text = name
+        holder.binding.gridImgFood.setImageResource(image)
 
         holder.binding.root.setOnClickListener {
             if (clickToActivity != null)
@@ -40,7 +38,6 @@ class CustomAdapter(val listFood: ArrayList<DataFood>, val clickToActivity: Clic
                 }
             }
         }
-
     }
 
     override fun getItemCount(): Int {
