@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.DetailProfile"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/titleProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="22sp"
+    />
+
+
+    <ImageView
+        android:id="@+id/imagePeopleDetail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/imageerror"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="2dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        />
+
+    <TextView
+        android:id="@+id/nameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePeopleDetail"
+        android:layout_marginTop="10dp"
+        android:text="Namaaae"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/addressDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameDetail"
+        android:layout_marginTop="10dp"
+        android:text="Address"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp" />
+
+</RelativeLayout>

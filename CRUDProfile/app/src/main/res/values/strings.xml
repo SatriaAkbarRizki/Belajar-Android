@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CRUDProfile</string>
+    <string name="card_tittle_address">address</string>
+    <string name="card_tittle_name">people</string>
+</resources>
